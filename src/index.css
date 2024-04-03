@@ -7,4 +7,16 @@
         font-family: "Poppins", system-ui, sans-serif;
         font-size: 10px;
     }
+    html::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url('./assets/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.2;
+    }
   }
