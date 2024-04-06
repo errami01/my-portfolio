@@ -8,7 +8,7 @@ const Body = ()=>{
         heroDescription: `text-[1.8rem] font-medium text-[#555] mt-10`,
     }
     return(
-        <div>
+        <div className="p-8">
             <section className={styles.homeSection}>
                 <div className={styles.profileImage}></div>
                 <div>
