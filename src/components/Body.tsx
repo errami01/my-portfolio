@@ -6,6 +6,7 @@ const Body = ()=>{
         animate-borderRadius`,
         title: `text-6xl font-bold `,
         heroDescription: `text-[1.8rem] font-medium text-[#555] mt-10`,
+        iconContainer:`text-[3rem]  flex gap-10`
     }
     return(
         <div className="p-8">
@@ -18,6 +19,14 @@ const Body = ()=>{
                         Developer who loves solving problems and Turning ideas
                         into interactive experiences.
                     </p>
+                </div>
+                <div className={styles.iconContainer}>
+                    <a href="https://www.linkedin.com/in/abdellatif-e-98513119a/" target="_blank">
+                        <i className="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href='https://github.com/errami01' target="_blank">
+                        <i className="fa-brands fa-github"></i>
+                    </a>
                 </div>
             </section>
         </div>
