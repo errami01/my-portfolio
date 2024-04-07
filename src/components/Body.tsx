@@ -34,6 +34,7 @@ const Body = ()=>{
                     </div>
                 </div>
                 <div>
+                <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,jest,vitest"/>
                 </div>
             </section>
         </div>
