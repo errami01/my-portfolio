@@ -2,7 +2,7 @@ const Body = ()=>{
     const styles ={
         homeSection:`border-8`,
         imageAndText: `flex flex-col items-center gap-[3rem] text-center 
-        md:flex-row-reverse`,
+        md:flex-row-reverse md:justify-between`,
         profileImage:`bg-[url('./assets/abdellatif.jpg')] transition-size duration-1000
         size-[28rem] md:size-[35rem] bg-[length:110%] bg-center bg-no-repeat border-8 
         animate-borderRadius`,
