@@ -11,7 +11,7 @@ const Body = ()=>{
         iconContainer:`text-[3rem]  flex gap-10 justify-center`
     }
     return(
-        <div className="p-8">
+        <div className="p-8 max-w-[107rem] m-auto">
             <section className={styles.homeSection}>
                 <div className={styles.imageAndText}>
                     <div className={styles.profileImage}></div>
