@@ -6,7 +6,7 @@ const Body = ()=>{
         profileImage:`bg-[url('./assets/abdellatif.jpg')] transition-size duration-1000
         size-[28rem] md:size-[35rem] bg-[length:110%] bg-center bg-no-repeat border-8 
         animate-borderRadius`,
-        titleToGithubContainer:`basis-[50rem]`,
+        titleToGithubContainer:`basis-[50rem] md:text-left`,
         title: `text-6xl font-bold `,
         heroDescription: `text-[1.8rem] font-medium text-[#555] mt-10`,
         iconContainer:`text-[3rem]  flex gap-10 justify-center`
