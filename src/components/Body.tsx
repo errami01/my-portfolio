@@ -8,7 +8,7 @@ const Body = ()=>{
         animate-borderRadius`,
         titleToGithubContainer:`flex flex-col gap-10 md:w-[50rem] md:text-left`,
         title: `text-6xl font-bold `,
-        heroDescription: `text-[1.8rem] font-medium text-[#555] mt-10`,
+        heroDescription: `text-[1.8rem] font-medium text-[#555] `,
         iconContainer:`text-[3rem]  flex gap-10 justify-center md:justify-start`
     }
     return(
