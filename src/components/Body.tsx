@@ -1,6 +1,6 @@
 const Body = ()=>{
     const styles ={
-        homeSection:`border-8`,
+        homeSection:`border-8 flex flex-col gap-[10rem]`,
         imageAndText: `flex flex-col items-center gap-[3rem] text-center 
         md:flex-row-reverse md:justify-between`,
         profileImage:`bg-[url('./assets/abdellatif.jpg')] transition-size duration-1000
