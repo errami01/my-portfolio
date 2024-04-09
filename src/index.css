@@ -3,11 +3,16 @@
 @tailwind utilities;
 
 @layer base {
-    html {
+    html{
         font-family: "Poppins", system-ui, sans-serif;
         font-size: 10px;
+        height: 100%;
     }
-    html::after{
+    body {
+        position: relative;
+        min-height:100%
+    }
+    body::before{
         content: "";
         position: absolute;
         top: 0;
