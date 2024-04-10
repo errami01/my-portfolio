@@ -9,7 +9,8 @@ const Body = ()=>{
         titleToGithubContainer:`flex flex-col gap-10 md:w-[50rem] md:text-left`,
         title: `text-6xl font-bold `,
         heroDescription: `text-[1.8rem] font-medium text-[#555] `,
-        iconContainer:`text-[3rem]  flex gap-10 justify-center md:justify-start`
+        iconContainer:`text-[3rem]  flex gap-10 justify-center md:justify-start`,
+        skillIconsContainer:`flex justify-center md:justify-start`
     }
     return(
         <div className="p-8 max-w-[107rem] m-auto">
@@ -34,8 +35,8 @@ const Body = ()=>{
                         </div>
                     </div>
                 </div>
-                <div>
-                    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,jest,vitest"/>
+                <div className={styles.skillIconsContainer}>
+                    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,jest,vitest"  />
                 </div>
             </section>
         </div>
