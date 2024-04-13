@@ -36,6 +36,7 @@ const Body = ()=>{
                     </div>
                 </div>
                 <div className={styles.skillIconsContainer}>
+                    <span>Tech stack</span>
                     <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,jest,vitest"  />
                 </div>
             </section>
