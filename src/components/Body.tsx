@@ -1,6 +1,6 @@
 const Body = ()=>{
     const styles ={
-        homeSection:`flex flex-col gap-[10rem]`,
+        homeSection:`flex flex-col gap-[5rem]`,
         imageAndText: `flex flex-col items-center gap-[3rem] text-center 
         md:flex-row-reverse md:justify-between`,
         profileImage:`bg-[url('./assets/abdellatif.jpg')] transition-size duration-1000
@@ -10,8 +10,10 @@ const Body = ()=>{
         title: `text-6xl font-bold `,
         heroDescription: `text-[1.8rem] font-medium text-[#555] `,
         iconContainer:`text-[3rem]  flex gap-10 justify-center md:justify-start`,
-        skillIconsContainer:`flex justify-center md:justify-start items-center`,
-        techStack:`text-[2rem]`
+        skillIconsContainer:`flex justify-center items-center flex-col
+        md:flex-row md:justify-start md:items-center`,
+        techStack:`text-[1.7rem] py-[1rem] font-semibold mb-[3rem] border-b-[0.1rem] 
+        border-black md:mb-0 md:mr-[3rem] md:border-r-[0.1rem] md:border-b-0 pr-[1rem]`
     }
     return(
         <div className="p-8 max-w-[107rem] m-auto">
