@@ -1,6 +1,9 @@
 import ProjectBox from "./ProjectBox"
 
 const Projects = ()=>{
+    const styles ={
+        
+    }
     return(
         <section>
             <ProjectBox />
