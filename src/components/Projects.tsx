@@ -9,10 +9,10 @@ const Projects = ()=>{
         <section >
             <SectionTitle text="Projects" />
             <div className={styles.projects}>
-                <ProjectBox />
-                <ProjectBox />
-                <ProjectBox />
-                <ProjectBox />
+                <ProjectBox imageSource="src\assets\ecommerce.png"/>
+                <ProjectBox imageSource="src\assets\ecommerce.png"/>
+                <ProjectBox imageSource="src\assets\ecommerce.png"/>
+                <ProjectBox imageSource="src\assets\ecommerce.png"/>
             </div>
         </section>
     )
