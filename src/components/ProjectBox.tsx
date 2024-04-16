@@ -1,6 +1,9 @@
 const ProjectBox = ()=>{
+    const styles ={
+        container:`h-[53rem] border-4`
+    }
     return(
-        <div>
+        <div className={styles.container}>
 
         </div>
     )
