@@ -3,8 +3,8 @@ type ProjectBoxProps = {
 }
 const ProjectBox = ({imageSource}:ProjectBoxProps)=>{
     const styles ={
-        container:`flex flex-col items-center h-[53rem] border-[0.3rem] bg-white rounded-[2.5rem]
-        p-[3rem]`
+        container:`flex flex-col items-center gap-[2rem]  border-[0.3rem] bg-white rounded-[2.5rem]
+        p-[3rem] text-[1.6rem]`
     }
     return(
         <div className={styles.container}>
