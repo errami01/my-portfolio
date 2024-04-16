@@ -8,7 +8,7 @@ const Hero = ()=>{
         profileImage:`bg-[url('./assets/abdellatif.jpg')] transition-size duration-1000
         size-[28rem] md:size-[35rem] bg-[length:110%] bg-center bg-no-repeat border-8 
         animate-borderRadius`,
-        titleToGithubContainer:`flex flex-col gap-10 md:w-[50rem] md:text-left`,
+        titleToGithubContainer:`flex flex-col gap-[2.5rem] md:w-[50rem] md:text-left`,
         heroDescription: `text-[1.8rem] font-medium text-[#555] `,
         iconContainer:`text-[3rem]  flex gap-10 justify-center md:justify-start`,
         skillIconsContainer:`flex justify-center items-center flex-col
