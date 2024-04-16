@@ -1,3 +1,5 @@
+import SectionTitle from "./SectionTitle"
+
 const Hero = ()=>{
     const styles ={
         homeSection:`flex flex-col gap-[5rem]`,
@@ -7,7 +9,6 @@ const Hero = ()=>{
         size-[28rem] md:size-[35rem] bg-[length:110%] bg-center bg-no-repeat border-8 
         animate-borderRadius`,
         titleToGithubContainer:`flex flex-col gap-10 md:w-[50rem] md:text-left`,
-        title: `text-6xl font-bold `,
         heroDescription: `text-[1.8rem] font-medium text-[#555] `,
         iconContainer:`text-[3rem]  flex gap-10 justify-center md:justify-start`,
         skillIconsContainer:`flex justify-center items-center flex-col
@@ -20,7 +21,7 @@ const Hero = ()=>{
             <div className={styles.imageAndText}>
                 <div className={styles.profileImage}></div>
                 <div className={styles.titleToGithubContainer}>
-                    <h1 className={styles.title}>Front-End React Developer</h1>
+                    <SectionTitle text="Front-End React Developer"/>
                     <p className={styles.heroDescription}>
                         Hi, I'm Abdellatif Errami. A passionate Front-end React
                         Developer who loves solving problems and Turning ideas
