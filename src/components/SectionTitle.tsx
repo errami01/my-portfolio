@@ -3,7 +3,7 @@ type SectionTitleProps ={
 }
 const SectionTitle = ({text}:SectionTitleProps)=>{
     return(
-        <h1>
+        <h1 className="text-6xl font-bold">
             {text}
         </h1>
     )
