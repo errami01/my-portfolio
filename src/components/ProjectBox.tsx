@@ -3,7 +3,7 @@ type ProjectBoxProps = {
 }
 const ProjectBox = ({imageSource}:ProjectBoxProps)=>{
     const styles ={
-        container:`h-[53rem] border-4`
+        container:`h-[53rem] border-[0.3rem] bg-white rounded-[2.5rem]`
     }
     return(
         <div className={styles.container}>
