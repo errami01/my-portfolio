@@ -9,10 +9,22 @@ const Projects = ()=>{
         <section >
             <SectionTitle text="Projects" />
             <div className={styles.projects}>
-                <ProjectBox imageSource="src\assets\ecommerce.png"/>
-                <ProjectBox imageSource="src\assets\ecommerce.png"/>
-                <ProjectBox imageSource="src\assets\ecommerce.png"/>
-                <ProjectBox imageSource="src\assets\ecommerce.png"/>
+                <ProjectBox 
+                    imageSource="src\assets\ecommerce.png"
+                    projectName="E-commerce"
+                />
+                <ProjectBox 
+                    imageSource="src\assets\ecommerce.png"
+                    projectName="E-commerce"
+                />
+                <ProjectBox 
+                    imageSource="src\assets\ecommerce.png"
+                    projectName="E-commerce"
+                />
+                <ProjectBox 
+                    imageSource="src\assets\ecommerce.png"
+                    projectName="E-commerce"
+                />
             </div>
         </section>
     )
