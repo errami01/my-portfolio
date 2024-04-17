@@ -5,11 +5,12 @@ type ProjectBoxProps = {
 const ProjectBox = ({imageSource, projectName}:ProjectBoxProps)=>{
     const styles ={
         container:`flex flex-col items-center gap-[2rem]  border-[0.3rem] bg-white rounded-[2.5rem]
-        p-[3rem] text-[1.6rem]`
+        p-[3rem] text-[1.6rem]`,
+        projectImage: `rounded-[1.5rem]`
     }
     return(
         <div className={styles.container}>
-            <img src={imageSource} width="310"  alt="Project image" />
+            <img className={styles.projectImage} src={imageSource} width="310"  alt="Project image" />
             <h2>{projectName}</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Odio, repellendus. Incidunt, laboriosam distinctio temporibus, 
