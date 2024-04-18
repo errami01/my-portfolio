@@ -1,3 +1,5 @@
+import Button from "./Button"
+
 type ProjectBoxProps = {
     imageSource: string
     projectName: string
@@ -19,6 +21,10 @@ const ProjectBox = ({imageSource, projectName, projectDescription}:ProjectBoxPro
             </div>
             <h2 className={styles.projectName}>{projectName}</h2>
             <p className={styles.projectDescription}>{projectDescription}</p>
+            <div>
+                <Button text="Code"/>
+                <Button text="Demo"/>
+            </div>
         </div>
     )
 }
