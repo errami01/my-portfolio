@@ -1,8 +1,9 @@
 type ProjectBoxProps = {
     imageSource: string
     projectName: string
+    projectDescription: string
 }
-const ProjectBox = ({imageSource, projectName}:ProjectBoxProps)=>{
+const ProjectBox = ({imageSource, projectName, projectDescription}:ProjectBoxProps)=>{
     const styles ={
         container:`flex flex-col items-center gap-[2rem]  border-[0.3rem] bg-white rounded-[2.5rem]
         p-[3rem] text-[1.6rem]`,
@@ -17,10 +18,7 @@ const ProjectBox = ({imageSource, projectName}:ProjectBoxProps)=>{
                 <div className="absolute w-[80%] bg-[#D3DEE5] h-[80%] rounded-[50%] blur-[5rem]"></div>
             </div>
             <h2 className={styles.projectName}>{projectName}</h2>
-            <p className={styles.projectDescription}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Odio, repellendus. Incidunt, laboriosam distinctio temporibus, 
-                adipisci soluta modi id ut molestiae quidem optio asperiores a. 
-                Delectus assumenda provident veniam dolorem.</p>
+            <p className={styles.projectDescription}>{projectDescription}</p>
         </div>
     )
 }
