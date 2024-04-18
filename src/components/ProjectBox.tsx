@@ -11,7 +11,8 @@ const ProjectBox = ({imageSource, projectName, projectDescription}:ProjectBoxPro
         p-[3rem] text-[1.6rem]`,
         projectImage: `rounded-[1.5rem] z-[1]`,
         projectName: `self-start font-bold text-[2.5rem]`,
-        projectDescription: `text-[1.6rem] font-[500] text-[#555]`
+        projectDescription: `text-[1.6rem] font-[500] text-[#555]`,
+        buttonContainer: `flex gap-[2rem] mt-auto`
     }
     return(
         <div className={styles.container}>
@@ -21,7 +22,7 @@ const ProjectBox = ({imageSource, projectName, projectDescription}:ProjectBoxPro
             </div>
             <h2 className={styles.projectName}>{projectName}</h2>
             <p className={styles.projectDescription}>{projectDescription}</p>
-            <div>
+            <div className={styles.buttonContainer}>
                 <Button text="Code"/>
                 <Button text="Demo"/>
             </div>
