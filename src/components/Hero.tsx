@@ -17,7 +17,7 @@ const Hero = ()=>{
         border-black md:mb-0 md:mr-[3rem] md:border-r-[0.1rem] md:border-b-0 pr-[1rem]`
     }
     return(
-        <section className={styles.homeSection}>
+        <section id='hero' className={styles.homeSection}>
             <div className={styles.imageAndText}>
                 <div className={styles.profileImage}></div>
                 <div className={styles.titleToGithubContainer}>
