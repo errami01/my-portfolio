@@ -6,7 +6,7 @@ const Projects = ()=>{
         projects: `grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))] gap-[5rem] mt-[2.5rem]`
     }
     return(
-        <section >
+        <section id='projects'>
             <SectionTitle text="Projects" />
             <div className={styles.projects}>
                 <ProjectBox 
