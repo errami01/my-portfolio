@@ -12,18 +12,29 @@ const Projects = ()=>{
                 <ProjectBox 
                     imageSource="src\assets\ecommerce.png"
                     projectName="E-commerce"
+                    projectDescription={`Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Voluptatum quasi debitis perferendis cupiditate
+                    consequuntur fuga error dolor deserunt, alias sequi!`}
                 />
                 <ProjectBox 
                     imageSource="src\assets\ecommerce.png"
                     projectName="E-commerce"
+                    projectDescription={`Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Voluptatum quasi debitis perferendis!`}
                 />
                 <ProjectBox 
                     imageSource="src\assets\ecommerce.png"
                     projectName="E-commerce"
+                    projectDescription={`Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Voluptatum quasi debitis perferendis cupiditate
+                    consequuntur fuga error!`}
                 />
                 <ProjectBox 
                     imageSource="src\assets\ecommerce.png"
                     projectName="E-commerce"
+                    projectDescription={`Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Voluptatum quasi debitis perferendis cupiditate
+                    consequuntur fuga error dolor deserunt, alias sequi!`}
                 />
             </div>
         </section>
