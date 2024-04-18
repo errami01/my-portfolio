@@ -1,7 +1,9 @@
-
-const Button = ()=>{
+type ButtonProps = {
+    text: string
+}
+const Button = ({text}: ButtonProps)=>{
     return(
-        <button></button>
+        <button>{text}</button>
     )
 }
 export default Button
