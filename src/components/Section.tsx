@@ -2,10 +2,11 @@ import { ReactNode } from "react"
 
 type SectionProps ={
     children: ReactNode
+    id: string
 }
-const Section = ({children}:SectionProps)=>{
+const Section = ({children, id}:SectionProps)=>{
     return(
-        <section className={`flex flex-col gap-[5rem]`}>
+        <section id={id} className={`flex flex-col gap-[5rem]`}>
             {children}
         </section>
     )
