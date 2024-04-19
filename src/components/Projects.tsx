@@ -1,12 +1,13 @@
 import ProjectBox from "./ProjectBox"
+import Section from "./Section"
 import SectionTitle from "./SectionTitle"
 
 const Projects = ()=>{
     const styles ={
-        projects: `grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))] gap-[5rem] mt-[2.5rem]`
+        projects: `grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))] gap-[5rem]`
     }
     return(
-        <section id='projects'>
+        <Section id='projects'>
             <SectionTitle text="Projects" />
             <div className={styles.projects}>
                 <ProjectBox 
@@ -37,7 +38,7 @@ const Projects = ()=>{
                     consequuntur fuga error dolor deserunt, alias sequi!`}
                 />
             </div>
-        </section>
+        </Section>
     )
 }
 export default Projects
