@@ -5,7 +5,7 @@ type SectionProps ={
 }
 const Section = ({children}:SectionProps)=>{
     return(
-        <section>
+        <section className={`flex flex-col gap-[5rem]`}>
             {children}
         </section>
     )
