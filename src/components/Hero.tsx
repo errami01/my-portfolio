@@ -1,8 +1,8 @@
+import Section from "./Section"
 import SectionTitle from "./SectionTitle"
 
 const Hero = ()=>{
     const styles ={
-        homeSection:`flex flex-col gap-[5rem]`,
         imageAndText: `flex flex-col items-center gap-[3rem] text-center 
         md:flex-row-reverse md:justify-between`,
         profileImage:`bg-[url('./assets/abdellatif.jpg')] transition-size duration-1000
@@ -17,7 +17,7 @@ const Hero = ()=>{
         border-black md:mb-0 md:mr-[3rem] md:border-r-[0.1rem] md:border-b-0 pr-[1rem]`
     }
     return(
-        <section id='hero' className={styles.homeSection}>
+        <Section id='hero' >
             <div className={styles.imageAndText}>
                 <div className={styles.profileImage}></div>
                 <div className={styles.titleToGithubContainer}>
@@ -42,7 +42,7 @@ const Hero = ()=>{
                 <span className={styles.techStack}>Tech stack</span>
                 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,jest,vitest"  />
             </div>
-        </section>
+        </Section>
     )
 }
 export default Hero
