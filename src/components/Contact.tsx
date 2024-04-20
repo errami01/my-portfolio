@@ -1,16 +1,17 @@
+import ContactBox from "./ContactBox"
 import Section from "./Section"
 import SectionTitle from "./SectionTitle"
 
 const Contact = ()=>{
-    const styles = {
-        icon:`text-[4rem] text-[#4A86F7]`
-    }
+    
     return(
         <Section id='contact'>
             <SectionTitle text="Contact"/>
-            <span><i className={`fa-solid fa-envelope ${styles.icon}`}></i></span>
-            <span><i className={`fa-solid fa-phone-volume ${styles.icon}`}></i></span>
-            <span><i className={`fa-solid fa-location-dot ${styles.icon}`}></i></span>
+            <div className="flex flex-col gap-[3rem] md:flex-row">
+                <ContactBox fontAwsomeClass="fa-solid fa-envelope" contactInfo="errami.dev@gmail.com"/>
+                <ContactBox fontAwsomeClass="fa-solid fa-phone-volume" contactInfo="errami.dev@gmail.com"/>
+                <ContactBox fontAwsomeClass="fa-solid fa-location-dot" contactInfo="errami.dev@gmail.com"/>
+            </div>
         </Section>
     )
 }
