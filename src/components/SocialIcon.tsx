@@ -1,8 +1,7 @@
 const SocialIcon = ()=>{
     return(
-     <div>
-
-     </div>   
+     <a>
+     </a>   
     )
 }
 export default SocialIcon
