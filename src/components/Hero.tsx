@@ -1,5 +1,6 @@
 import Section from "./Section"
 import SectionTitle from "./SectionTitle"
+import SocialIcon from "./SocialIcon"
 
 const Hero = ()=>{
     const styles ={
@@ -28,13 +29,14 @@ const Hero = ()=>{
                         into interactive experiences.
                     </p>
                     <div className={styles.iconContainer}>
-                        <a  href="https://www.linkedin.com/in/abdellatif-e-98513119a/" 
-                            target="_blank">
-                            <i className="fa-brands fa-linkedin"></i>
-                        </a>
-                        <a href='https://github.com/errami01' target="_blank">
-                            <i className="fa-brands fa-github"></i>
-                        </a>
+                        <SocialIcon 
+                            link="https://www.linkedin.com/in/abdellatif-e-98513119a/"
+                            fontAwsomeClass="fa-brands fa-linkedin" 
+                        />
+                        <SocialIcon 
+                            link="https://github.com/errami01"
+                            fontAwsomeClass="fa-brands fa-github" 
+                        />
                     </div>
                 </div>
             </div>
