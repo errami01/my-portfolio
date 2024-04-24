@@ -2,9 +2,10 @@ import TopMenuItems from "./TopMenuItems"
 
 type BarsMenuProps = {
     isOpen: boolean
+    handleXClick: (isOpen:boolean)=>void
 }
 
-const BarsMenu = ({isOpen}:BarsMenuProps) =>{
+const BarsMenu = ({isOpen, handleXClick}:BarsMenuProps) =>{
     const styles={
         container: `flex flex-col  fixed top-0 bottom-0 
         ${isOpen? 'right-0 left-0':'right-[100%] left-[-100%]'} transition-all
@@ -15,7 +16,7 @@ const BarsMenu = ({isOpen}:BarsMenuProps) =>{
     }
     return (
         <div className={styles.container}>
-            <span className={styles.xIconContainer}><i className='fa-solid fa-x'></i></span>
+            <span className={styles.xIconContainer} onClick={()=> handleXClick(false)}><i className='fa-solid fa-x'></i></span>
             <TopMenuItems containerClassName={styles.topMenuItems}/>
         </div>
     )
