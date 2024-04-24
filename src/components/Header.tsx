@@ -1,4 +1,5 @@
 import { useState } from "react"
+import BarsMenu from "./BarsMenu"
 import TopMenuItems from "./TopMenuItems"
 
 const Header = ()=>{
@@ -17,6 +18,7 @@ const Header = ()=>{
                     className="fa-solid fa-bars md:hidden self-center text-[2.3rem]"
                     onClick={barsMenuController}
                 ></i>
+                <BarsMenu isOpen= {isOpen}/>
                 <TopMenuItems containerClassName="hidden md:flex gap-[2rem] font-[600]"/>
             </div>
         </header>
