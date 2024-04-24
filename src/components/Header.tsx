@@ -4,8 +4,8 @@ import TopMenuItems from "./TopMenuItems"
 
 const Header = ()=>{
     const [isOpen, setIsOpen] = useState(false)
-    const barsMenuController = ()=>{
-        setIsOpen(!isOpen)
+    const openAndCloseBarsMenu = (isOpen:boolean)=>{
+        setIsOpen(isOpen)
     }
 
     return(
@@ -16,7 +16,7 @@ const Header = ()=>{
             <div className="flex  text-[1.7rem]">
                 <i 
                     className="fa-solid fa-bars md:hidden self-center text-[2.3rem]"
-                    onClick={barsMenuController}
+                    onClick={()=>{openAndCloseBarsMenu(true)}}
                 ></i>
                 <BarsMenu isOpen= {isOpen}/>
                 <TopMenuItems containerClassName="hidden md:flex gap-[2rem] font-[600]"/>
