@@ -18,7 +18,7 @@ const Header = ()=>{
                     className="fa-solid fa-bars md:hidden self-center text-[2.3rem]"
                     onClick={()=>{openAndCloseBarsMenu(true)}}
                 ></i>
-                <BarsMenu isOpen= {isOpen}/>
+                <BarsMenu isOpen= {isOpen} handleXClick={openAndCloseBarsMenu}/>
                 <TopMenuItems containerClassName="hidden md:flex gap-[2rem] font-[600]"/>
             </div>
         </header>
