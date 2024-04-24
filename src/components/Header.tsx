@@ -13,7 +13,10 @@ const Header = ()=>{
                 Logo
             </h1>
             <div className="flex  text-[1.7rem]">
-                <i className="fa-solid fa-bars md:hidden  self-center text-[2.3rem]"></i>
+                <i 
+                    className="fa-solid fa-bars md:hidden self-center text-[2.3rem]"
+                    onClick={barsMenuController}
+                ></i>
                 <TopMenuItems containerClassName="hidden md:flex gap-[2rem] font-[600]"/>
             </div>
         </header>
