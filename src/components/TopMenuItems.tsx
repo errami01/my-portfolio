@@ -7,7 +7,7 @@ const TopMenuItems = ({containerClassName, handleMenuItemClick=()=>null}:TopMenu
         link: `flex items-center hover:text-[#4A86F7]`
     }
     return(
-      <div className={`${containerClassName} bg-red-100`}>
+      <div className={`${containerClassName}`}>
         <a href="#hero" className={styles.link} onClick={()=>handleMenuItemClick(false)}>Home</a>
         <a href="#projects" className={styles.link} onClick={()=>handleMenuItemClick(false)}>Projects</a>
         <a href="#contact" className={styles.link} onClick={()=>handleMenuItemClick(false)}>contact</a>
