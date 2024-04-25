@@ -17,7 +17,7 @@ const BarsMenu = ({isOpen, handleXClick}:BarsMenuProps) =>{
     return (
         <div className={styles.container}>
             <span className={styles.xIconContainer} onClick={()=> handleXClick(false)}><i className='fa-solid fa-x'></i></span>
-            <TopMenuItems containerClassName={styles.topMenuItems}/>
+            <TopMenuItems containerClassName={styles.topMenuItems} handleMenuItemClick={handleXClick}/>
         </div>
     )
 }
