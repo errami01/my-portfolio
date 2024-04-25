@@ -2,11 +2,14 @@ type TopMenuItemsProps ={
     containerClassName: string
 }
 const TopMenuItems = ({containerClassName}:TopMenuItemsProps)=>{
+    const styles ={
+        link: `flex items-center hover:text-[#4A86F7]`
+    }
     return(
       <div className={containerClassName}>
-        <a href="#hero" className="flex items-center ">Home</a>
-        <a href="#projects" className="flex items-center ">Projects</a>
-        <a href="#contact" className="flex items-center">contact</a>
+        <a href="#hero" className={styles.link}>Home</a>
+        <a href="#projects" className={styles.link}>Projects</a>
+        <a href="#contact" className={styles.link}>contact</a>
       </div>
     )
 }
