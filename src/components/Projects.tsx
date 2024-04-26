@@ -13,6 +13,8 @@ const Projects = ()=>{
                 <ProjectBox 
                     imageSource="src\assets\ecommerce.png"
                     projectName="E-commerce"
+                    githubLink=""
+                    demoLink=""
                     projectDescription={`Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit. Voluptatum quasi debitis perferendis cupiditate
                     consequuntur fuga error dolor deserunt, alias sequi!`}
@@ -20,6 +22,8 @@ const Projects = ()=>{
                 <ProjectBox 
                     imageSource="src\assets\calculator.png"
                     projectName="Calculator"
+                    githubLink="https://github.com/errami01/javaScript-calculator"
+                    demoLink="https://legendary-lamington-29c64d.netlify.app/"
                     projectDescription={`A sleek and intuitive calculator web app
                     built with React.js. Designed for efficiency and offers
                     a user-friendly interface that simplifies complex calculations.`}
@@ -27,6 +31,8 @@ const Projects = ()=>{
                 <ProjectBox 
                     imageSource="src\assets\ecommerce.png"
                     projectName="E-commerce"
+                    githubLink=""
+                    demoLink=""
                     projectDescription={`Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit. Voluptatum quasi debitis perferendis cupiditate
                     consequuntur fuga error!`}
@@ -34,6 +40,8 @@ const Projects = ()=>{
                 <ProjectBox 
                     imageSource="src\assets\ecommerce.png"
                     projectName="E-commerce"
+                    githubLink=""
+                    demoLink=""
                     projectDescription={`Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit. Voluptatum quasi debitis perferendis cupiditate
                     consequuntur fuga error dolor deserunt, alias sequi!`}
