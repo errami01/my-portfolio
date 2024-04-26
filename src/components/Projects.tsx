@@ -19,9 +19,10 @@ const Projects = ()=>{
                 />
                 <ProjectBox 
                     imageSource="src\assets\ecommerce.png"
-                    projectName="E-commerce"
-                    projectDescription={`Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Voluptatum quasi debitis perferendis!`}
+                    projectName="Calculator"
+                    projectDescription={`A sleek and intuitive calculator web app
+                    built with React.js. Designed for efficiency and offers
+                    a user-friendly interface that simplifies complex calculations.`}
                 />
                 <ProjectBox 
                     imageSource="src\assets\ecommerce.png"
