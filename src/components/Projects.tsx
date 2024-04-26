@@ -18,7 +18,7 @@ const Projects = ()=>{
                     consequuntur fuga error dolor deserunt, alias sequi!`}
                 />
                 <ProjectBox 
-                    imageSource="src\assets\ecommerce.png"
+                    imageSource="src\assets\calculator.png"
                     projectName="Calculator"
                     projectDescription={`A sleek and intuitive calculator web app
                     built with React.js. Designed for efficiency and offers
