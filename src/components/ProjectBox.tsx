@@ -26,8 +26,8 @@ const ProjectBox = (props:ProjectBoxProps)=>{
             <h2 className={styles.projectName}>{projectName}</h2>
             <p className={styles.projectDescription}>{projectDescription}</p>
             <div className={styles.buttonContainer}>
-                <a href={githubLink}><Button text="Code"/></a>
-                <a href={demoLink}><Button text="Demo"/></a>
+                <a href={githubLink} target="_blank"><Button text="Code"/></a>
+                <a href={demoLink} target="_blank"><Button text="Demo"/></a>
             </div>
         </div>
     )
