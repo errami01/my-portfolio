@@ -4,8 +4,11 @@ type ProjectBoxProps = {
     imageSource: string
     projectName: string
     projectDescription: string
+    githubLink: string
+    demoLink: string
 }
-const ProjectBox = ({imageSource, projectName, projectDescription}:ProjectBoxProps)=>{
+const ProjectBox = (props:ProjectBoxProps)=>{
+    const {imageSource, projectName, projectDescription, githubLink, demoLink} = props
     const styles ={
         container:`flex flex-col items-center gap-[2rem]  border-[0.3rem] bg-white rounded-[2.5rem]
         p-[3rem] text-[1.6rem]`,
@@ -23,8 +26,8 @@ const ProjectBox = ({imageSource, projectName, projectDescription}:ProjectBoxPro
             <h2 className={styles.projectName}>{projectName}</h2>
             <p className={styles.projectDescription}>{projectDescription}</p>
             <div className={styles.buttonContainer}>
-                <a><Button text="Code"/></a>
-                <a><Button text="Demo"/></a>
+                <a href={githubLink}><Button text="Code"/></a>
+                <a href={demoLink}><Button text="Demo"/></a>
             </div>
         </div>
     )
