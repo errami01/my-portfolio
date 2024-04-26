@@ -3,12 +3,12 @@ import Button from "./Button"
 type ProjectBoxProps = {
     imageSource: string
     projectName: string
-    projectDescription: string
+    children: JSX.Element
     githubLink: string
     demoLink: string
 }
 const ProjectBox = (props:ProjectBoxProps)=>{
-    const {imageSource, projectName, projectDescription, githubLink, demoLink} = props
+    const {imageSource, projectName, children, githubLink, demoLink} = props
     const styles ={
         container:`flex flex-col items-center gap-[2rem]  border-[0.3rem] bg-white rounded-[2.5rem]
         p-[3rem] text-[1.6rem]`,
@@ -24,7 +24,7 @@ const ProjectBox = (props:ProjectBoxProps)=>{
                 <div className="absolute w-[80%] bg-[#D3DEE5] h-[80%] rounded-[50%] blur-[5rem]"></div>
             </div>
             <h2 className={styles.projectName}>{projectName}</h2>
-            <p className={styles.projectDescription}>{projectDescription}</p>
+            <p className={styles.projectDescription}>{children}</p>
             <div className={styles.buttonContainer}>
                 <a href={githubLink} target="_blank"><Button text="Code"/></a>
                 <a href={demoLink} target="_blank"><Button text="Demo"/></a>
