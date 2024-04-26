@@ -23,8 +23,8 @@ const ProjectBox = ({imageSource, projectName, projectDescription}:ProjectBoxPro
             <h2 className={styles.projectName}>{projectName}</h2>
             <p className={styles.projectDescription}>{projectDescription}</p>
             <div className={styles.buttonContainer}>
-                <Button text="Code"/>
-                <Button text="Demo"/>
+                <a><Button text="Code"/></a>
+                <a><Button text="Demo"/></a>
             </div>
         </div>
     )
