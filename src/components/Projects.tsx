@@ -52,14 +52,14 @@ const Projects = ()=>{
                 </ProjectBox>
 
                 <ProjectBox 
-                    imageSource="src\assets\ecommerce.png"
-                    projectName="E-commerce"
-                    githubLink=""
-                    demoLink=""
+                    imageSource="src\assets\quotes.png"
+                    projectName="Random Quote Machine"
+                    githubLink="https://github.com/errami01/random-quote-machine"
+                    demoLink="https://earnest-clafoutis-06977f.netlify.app/"
                 > 
-                    <>Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Voluptatum quasi debitis perferendis cupiditate
-                    consequuntur fuga error dolor deserunt, alias sequi!
+                    <>a web application that serves as a source of inspiration
+                    and wisdom. This interactive app displays a randomly chosen
+                    quote and author with each refresh or button click. 
                     </>
                 </ProjectBox>
             </div>
