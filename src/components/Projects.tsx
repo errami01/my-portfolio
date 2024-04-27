@@ -41,8 +41,8 @@ const Projects = ()=>{
                 <ProjectBox 
                     imageSource="src\assets\pomodoro.png"
                     projectName="Pomodoro Timer"
-                    githubLink=""
-                    demoLink=""
+                    githubLink="https://github.com/errami01/pomodoro-timer"
+                    demoLink="https://rainbow-khapse-93b8c5.netlify.app/"
                 >
                     <> a web-based Pomodoro Timer to enhance productivity and focus.
                     This user-friendly application implements the Pomodoro Technique, 
