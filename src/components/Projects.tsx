@@ -39,14 +39,16 @@ const Projects = ()=>{
                 </ProjectBox>
                 
                 <ProjectBox 
-                    imageSource="src\assets\ecommerce.png"
-                    projectName="E-commerce"
+                    imageSource="src\assets\pomodoro.png"
+                    projectName="Pomodoro Timer"
                     githubLink=""
                     demoLink=""
                 >
-                    <>Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Voluptatum quasi debitis perferendis cupiditate
-                    consequuntur fuga error dolor deserunt, alias sequi!</>
+                    <> a web-based Pomodoro Timer to enhance productivity and focus.
+                    This user-friendly application implements the Pomodoro Technique, 
+                    allowing users to set work intervals and short breaks. The timer 
+                    visually tracks progress and provides notifications to maintain 
+                    focus during work sessions and signal breaks.</>
                 </ProjectBox>
 
                 <ProjectBox 
