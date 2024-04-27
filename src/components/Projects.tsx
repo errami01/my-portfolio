@@ -57,7 +57,7 @@ const Projects = ()=>{
                     githubLink="https://github.com/errami01/random-quote-machine"
                     demoLink="https://earnest-clafoutis-06977f.netlify.app/"
                 > 
-                    <>a web application that serves as a source of inspiration
+                    <>A web application that serves as a source of inspiration
                     and wisdom. This interactive app displays a randomly chosen
                     quote and author with each refresh or button click. 
                     </>
