@@ -44,7 +44,7 @@ const Projects = ()=>{
                     githubLink="https://github.com/errami01/pomodoro-timer"
                     demoLink="https://rainbow-khapse-93b8c5.netlify.app/"
                 >
-                    <> a web-based Pomodoro Timer to enhance productivity and focus.
+                    <> A web-based Pomodoro Timer to enhance productivity and focus.
                     This user-friendly application implements the Pomodoro Technique, 
                     allowing users to set work intervals and short breaks. The timer 
                     visually tracks progress and provides notifications to maintain 
