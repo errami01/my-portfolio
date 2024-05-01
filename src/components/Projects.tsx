@@ -11,7 +11,7 @@ const Projects = ()=>{
             <SectionTitle text="Projects" />
             <div className={styles.projects}>
                 <ProjectBox 
-                    imageSource="src\assets\ecommerce.png"
+                    imageSource="/assets/ecommerce.png"
                     projectName="E-commerce"
                     githubLink=""
                     demoLink=""
@@ -26,7 +26,7 @@ const Projects = ()=>{
                     engagement and provide valuable product feedback.</>
                 </ProjectBox>
                 <ProjectBox 
-                    imageSource="src\assets\calculator.png"
+                    imageSource="/assets/calculator.png"
                     projectName="Calculator"
                     githubLink="https://github.com/errami01/javaScript-calculator"
                     demoLink="https://legendary-lamington-29c64d.netlify.app/"
@@ -39,7 +39,7 @@ const Projects = ()=>{
                 </ProjectBox>
                 
                 <ProjectBox 
-                    imageSource="src\assets\pomodoro.png"
+                    imageSource="/assets/pomodoro.png"
                     projectName="Pomodoro Timer"
                     githubLink="https://github.com/errami01/pomodoro-timer"
                     demoLink="https://rainbow-khapse-93b8c5.netlify.app/"
@@ -52,7 +52,7 @@ const Projects = ()=>{
                 </ProjectBox>
 
                 <ProjectBox 
-                    imageSource="src\assets\quotes.png"
+                    imageSource="/assets/quotes.png"
                     projectName="Random Quote Machine"
                     githubLink="https://github.com/errami01/random-quote-machine"
                     demoLink="https://earnest-clafoutis-06977f.netlify.app/"
