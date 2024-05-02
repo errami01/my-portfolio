@@ -12,7 +12,7 @@ const Header = ()=>{
         <header className="sticky top-0 flex justify-between h-[80px] px-[50px] 
         shadow-[0_0_10px_rgba(0,0,0,.09)] bg-slate-100 z-10">
             <h1 className="flex items-center text-3xl font-bold ">
-                Logo
+                Erramidev.com
             </h1>
             <div className="flex  text-[1.7rem]">
                 <i 
