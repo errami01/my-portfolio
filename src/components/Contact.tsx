@@ -9,7 +9,7 @@ const Contact = ()=>{
             <SectionTitle text="Contact"/>
             <div className="flex flex-col gap-[3rem] md:flex-row">
                 <ContactBox fontAwsomeClass="fa-solid fa-envelope" contactInfo="erramicode@gmail.com"/>
-                <ContactBox fontAwsomeClass="fa-solid fa-phone-volume" contactInfo="+212678908765"/>
+                <ContactBox fontAwsomeClass="fa-solid fa-phone-volume" contactInfo="+212700389083"/>
                 <ContactBox fontAwsomeClass="fa-solid fa-location-dot" contactInfo="Agdir, Morocco"/>
             </div>
         </Section>
