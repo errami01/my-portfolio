@@ -37,6 +37,10 @@ const Hero = ()=>{
                             link="https://github.com/errami01"
                             fontAwsomeClass="fa-brands fa-github" 
                         />
+                        <SocialIcon 
+                            link="/assets/resume.pdf"
+                            fontAwsomeClass="fa-solid fa-file"
+                        />
                     </div>
                 </div>
             </div>
