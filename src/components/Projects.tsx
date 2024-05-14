@@ -13,8 +13,8 @@ const Projects = ()=>{
                 <ProjectBox 
                     imageSource="/assets/ecommerce.png"
                     projectName="E-commerce"
-                    githubLink=""
-                    demoLink=""
+                    githubLink="https://github.com/errami01/e-shop"
+                    demoLink="https://e-commerce-8a744.web.app/"
                 >
                     <>A Scalable E-commerce Web Application 
                     with the following key features:
