@@ -4,7 +4,7 @@ import SkillsGroup from "./SkillsGroup"
 
 const Skills = ()=>{
     const frontEndSkills: string[] = ['HTML', 'CSS', 'JavaScript', 'TypeScript']
-    const backEndSkills: string[] = ['NodeJS-Dark']
+    const backEndSkills: string[] = ['NodeJS']
     const devOpsSkills: string[] = ['Git']
     return(
         <Section id="skills">
