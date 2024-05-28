@@ -3,6 +3,7 @@ import SectionTitle from "./SectionTitle"
 import SocialIcon from "./SocialIcon"
 
 const Hero = ()=>{
+    
     const styles ={
         imageAndText: `flex flex-col items-center gap-[3rem] text-center 
         md:flex-row-reverse md:justify-between`,
@@ -12,10 +13,8 @@ const Hero = ()=>{
         titleToGithubContainer:`flex flex-col gap-[2.5rem] md:w-[50rem] md:text-left`,
         heroDescription: `text-[1.8rem] font-medium text-[#555] `,
         iconContainer:`text-[3rem]  flex gap-10 justify-center md:justify-start`,
-        skillIconsContainer:`flex justify-center items-center flex-col
-        md:flex-row md:justify-start md:items-center`,
-        techStack:`text-[1.7rem] py-[1rem] font-semibold mb-[3rem] border-b-[0.1rem] 
-        border-black md:mb-0 md:mr-[3rem] md:border-r-[0.1rem] md:border-b-0 pr-[1rem]`
+        
+        
     }
     return(
         <Section id='hero' >
@@ -44,10 +43,7 @@ const Hero = ()=>{
                     </div>
                 </div>
             </div>
-            <div className={styles.skillIconsContainer}>
-                <span className={styles.techStack}>Tech stack</span>
-                <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,jest,vitest"  />
-            </div>
+            
         </Section>
     )
 }
