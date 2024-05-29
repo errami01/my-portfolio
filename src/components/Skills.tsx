@@ -3,9 +3,9 @@ import SectionTitle from "./SectionTitle"
 import SkillsGroup from "./SkillsGroup"
 
 const Skills = ()=>{
-    const frontEndSkills: string[] = ['HTML', 'CSS', 'JavaScript', 'TypeScript']
-    const backEndSkills: string[] = ['NodeJS']
-    const devOpsSkills: string[] = ['Git']
+    const frontEndSkills: string[] = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'ReactJS', 'Redux', 'NextJS']
+    const backEndSkills: string[] = ['NodeJS', 'ExpressJS', 'MongoDB', 'PostgreSQL', 'NextJS']
+    const devOpsSkills: string[] = ['Git', 'Playwright', 'Cypress']
     return(
         <Section id="skills">
             <SectionTitle text="Skills"/>
