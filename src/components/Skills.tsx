@@ -3,7 +3,7 @@ import SectionTitle from "./SectionTitle"
 import SkillsGroup from "./SkillsGroup"
 
 const Skills = ()=>{
-    const frontEndSkills: string[] = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'ReactJS', 'Redux', 'NextJS']
+    const frontEndSkills: string[] = ['HTML', 'CSS', 'TailwindCSS', 'JavaScript', 'TypeScript', 'ReactJS', 'Redux', 'NextJS']
     const backEndSkills: string[] = ['NodeJS', 'ExpressJS', 'MongoDB', 'PostgreSQL', 'NextJS']
     const devOpsSkills: string[] = ['Git', 'Playwright', 'Cypress']
     return(
