@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle"
 
 const Projects = ()=>{
     const styles ={
-        projects: `grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))] gap-[5rem]`
+        projects: `grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-[8rem]`
     }
     return(
         <Section id='projects'>
