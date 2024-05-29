@@ -21,9 +21,9 @@ const Hero = ()=>{
             <div className={styles.imageAndText}>
                 <div className={styles.profileImage}></div>
                 <div className={styles.titleToGithubContainer}>
-                    <SectionTitle text="Front-End React Developer"/>
+                    <SectionTitle text="Full-stack Developer"/>
                     <p className={styles.heroDescription}>
-                        Hi, I'm Abdellatif Errami. A passionate Front-end React
+                        Hi, I'm Abdellatif Errami. A passionate Full-stack
                         Developer who loves solving problems and Turning ideas
                         into interactive experiences.
                     </p>
