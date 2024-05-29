@@ -5,11 +5,10 @@ type SkillsGroupProps ={
 }
 const SkillsGroup = ({title, skills}: SkillsGroupProps)=>{
     const styles = {
-        container:`flex justify-center items-center flex-col
-        md:flex-row md:justify-start md:items-center`,
+        container:`flex flex-col`,
         techStack:`text-[1.7rem] py-[1rem] w-[10rem] font-semibold mb-[3rem] border-b-[0.1rem] 
-        border-black md:mb-0 md:mr-[3rem] md:border-r-[0.1rem] md:border-b-0 pr-[1rem]`,
-        iconsContainer:`flex gap-[3rem]`,
+        border-black pr-[1rem]`,
+        iconsContainer:`flex gap-[3rem] flex-wrap`,
         iconAndName: `flex flex-col items-center gap-[0.5rem]`,
         skillName: `text-[1.2rem] text-gray-500 font-medium`,
     }
