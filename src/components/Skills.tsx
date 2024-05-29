@@ -7,8 +7,8 @@ const Skills = ()=>{
     const backEndSkills: string[] = ['NodeJS', 'ExpressJS', 'MongoDB', 'PostgreSQL', 'NextJS']
     const devOpsSkills: string[] = ['Git', 'Playwright', 'Cypress']
     return(
-        <Section id="skills">
-            <SectionTitle text="Skills"/>
+        <Section id="technologies">
+            <SectionTitle text="Technologies "/>
             <SkillsGroup title="Front-end" skills={frontEndSkills}></SkillsGroup>
             <SkillsGroup title="Back-end" skills={backEndSkills}></SkillsGroup>
             <SkillsGroup title="DevOps" skills={devOpsSkills}></SkillsGroup>

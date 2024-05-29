@@ -9,6 +9,7 @@ const TopMenuItems = ({containerClassName, handleMenuItemClick=()=>null}:TopMenu
     return(
       <div className={`${containerClassName}`}>
         <a href="#hero" className={styles.link} onClick={()=>handleMenuItemClick(false)}>Home</a>
+        <a href="#technologies" className={styles.link} onClick={()=>handleMenuItemClick(false)}>Technologies</a>
         <a href="#projects" className={styles.link} onClick={()=>handleMenuItemClick(false)}>Projects</a>
         <a href="#contact" className={styles.link} onClick={()=>handleMenuItemClick(false)}>contact</a>
       </div>
