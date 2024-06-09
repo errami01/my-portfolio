@@ -29,7 +29,7 @@ const Hero = ()=>{
                     </p>
                     <div className={styles.iconContainer}>
                         <SocialIcon 
-                            link="https://www.linkedin.com/in/abdellatif-e-98513119a/"
+                            link="https://www.linkedin.com/in/erramidev"
                             fontAwsomeClass="fa-brands fa-linkedin" 
                         />
                         <SocialIcon 
